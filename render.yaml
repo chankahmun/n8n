@@ -31,7 +31,7 @@ services:
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
       - key: WEBHOOK_URL
-        value: https://your-n8n-domain.onrender.com # Replace with your actual Render domain
+        value: https://n8n-service-8z3i.onrender.com # Replace with your actual Render domain
       - key: N8N_PROTOCOL
         value: https
       # These automatically populate connection details 
