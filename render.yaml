@@ -30,7 +30,10 @@ services:
       # encrypted with the previous value.
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
-
+      - key: WEBHOOK_URL
+        value: https://your-n8n-domain.onrender.com # Replace with your actual Render domain
+      - key: N8N_PROTOCOL
+        value: https
       # These automatically populate connection details 
       # for the Render Postgres database defined below
       - key: DB_TYPE
